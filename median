@@ -1,0 +1,11 @@
+def median():
+    while True:
+        med1 = sonic_side.distance()
+        med2 = sonic_side.distance()
+        med3 = sonic_side.distance()
+        med4 = sonic_side.distance()
+        med5 = sonic_side.distance()
+        med = [med1,med2,med3,med4,med5]
+        data = sorted(med)
+        calc = [data[0]]
+        print(data)
